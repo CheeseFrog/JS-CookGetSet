@@ -16,10 +16,11 @@ vars = Object.keys(vars);
 
 function save() {
 for (var i in vars) cookset(vars[i], window[vars[i]]);
+cookset("saved",1);
 }
 
 function load() {
-for (var i in vars) window[vars[i]] = cookget(vars[i]);
+if (cookget("saved") for (var i in vars) window[vars[i]] = cookget(vars[i]);
 }
 ~~~~
 
