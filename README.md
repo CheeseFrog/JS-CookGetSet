@@ -20,7 +20,7 @@ cookset("saved",1);
 }
 
 function load() {
-if (cookget("saved") for (var i in vars) window[vars[i]] = cookget(vars[i]);
+if (cookget("saved")) for (var i in vars) window[vars[i]] = cookget(vars[i]);
 }
 ~~~~
 
