@@ -1,5 +1,6 @@
 # JS-CookGetSet
-A simple JavaScript function; variable setter/getter for HTML localStorage with cookie fallback.
+A simple JavaScript function; variable setter/getter in HTML5 localStorage with cookie fallback.
+Can be used to save variables of various object types between sessions.
 
 ### Usage:
 `cookset(key_name, key_value)` --> returns key_value, and sets a key/value pair in localStorage, or as a cookie if unsupported.  
